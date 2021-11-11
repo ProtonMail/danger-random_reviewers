@@ -1,6 +1,6 @@
 # danger-random_reviewers
 
-A description of danger-random_reviewers.
+A Danger plugin to assign random reviewers form a pre-defined list.
 
 ## Installation
 
@@ -8,8 +8,13 @@ A description of danger-random_reviewers.
 
 ## Usage
 
-    Methods and attributes from this plugin are available in
-    your `Dangerfile` under the `random_reviewers` namespace.
+You need to call the `assign` method, either providing a sublist of users that can be assigned:
+
+    random_reviewers.assign(['vbrison', 'jmartin'])
+
+Or no list at all to select from all available reviewers:
+
+    random_reviewers.assign()
 
 ## Development
 

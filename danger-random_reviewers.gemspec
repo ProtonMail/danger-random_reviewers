@@ -7,11 +7,11 @@ require "random_reviewers/gem_version"
 Gem::Specification.new do |spec|
   spec.name          = "danger-random_reviewers"
   spec.version       = RandomReviewers::VERSION
-  spec.authors       = ["Jorge Martín"]
-  spec.email         = ["jorge.martin@proton.ch"]
-  spec.description   = "A short description of danger-random_reviewers."
-  spec.summary       = "A longer description of danger-random_reviewers."
-  spec.homepage      = "https://github.com/Jorge Martín/danger-random_reviewers"
+  spec.authors       = ["Vincent Brison"]
+  spec.email         = ["vbrison@proton.ch"]
+  spec.description   = "A Danger plugin to assign random reviewers form a pre-defined list."
+  spec.summary       = "A Danger plugin to assign random reviewers form a pre-defined list."
+  spec.homepage      = "https://gitlab.protontech.ch/proton/devops/quality/danger-random_reviewers"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
